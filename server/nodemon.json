@@ -1,0 +1,13 @@
+{
+    "verbose": true,
+    "ignore": [
+        "package.json",
+        ".git",
+        "node_modules/*",
+        "config/*"
+    ],
+    "watch": [
+        "src/"
+      ],
+    "ext": "js,json"
+}

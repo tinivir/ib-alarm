@@ -1,0 +1,16 @@
+{
+  "name": "ib-alarm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nataliia Haiduk <ntinivir@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "yarn --cwd ./server start",
+    "front": "yarn --cwd ./front build",
+    "start": "yarn front && yarn server"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {}
+}
